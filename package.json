@@ -15,6 +15,7 @@
     "url": ""
   },
   "scripts": {
+    "prestart": "node node_modules/gulp/bin/gulp",
     "start": "node app",
     "test": "node node_modules/gulp/bin/gulp test",
     "coveralls": "node node_modules/gulp/bin/gulp coveralls"
