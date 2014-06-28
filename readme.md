@@ -18,6 +18,7 @@ git add -A
 git commit -m 'Initial commit, added es6-app-skeleton'
 git remote add origin https://github.com/example/project-name.git
 git push -u origin master
+git update-index --assume-unchanged .coveralls.yml
 npm start
 ```
 
