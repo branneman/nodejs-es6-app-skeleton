@@ -87,6 +87,10 @@ gulp.task('jshint', function() {
 //
 gulp.task('unittests', ['default'], function(cb) {
 
+    // Enable require calls relative to this directory
+    process.env.NODE_PATH = '.';
+    require('module').Module._initPaths();
+
     var appSrc = [
         paths.appJS,
         '!' + paths.appTest

@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 
-var mod = require('../../../lib/mod');
+var mod = require('app/lib/mod');
 
 describe('Mod', function() {
     it('should export `log`', function() {
